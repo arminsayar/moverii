@@ -4,6 +4,7 @@ import Header from "./components/header";
 import Started from "./components/started";
 import Mission from "./components/mission";
 import Advantantage from "./components/advantantage";
+import Fourth from "./components/section-fourth";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -12,5 +13,6 @@ root.render(
     <Started />
     <Mission />
     <Advantantage />
+    <Fourth/>
   </>
 );

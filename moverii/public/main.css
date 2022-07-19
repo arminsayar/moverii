@@ -256,3 +256,41 @@ html {
   right: 10px;
   top: 35px;
 }
+.fourth-div {
+  display: flex;
+  flex-direction: row;
+}
+.fourth-img {
+  margin: 0 18px 0 18px;
+  position: absolute;
+  top: -40px;
+}
+.image-back {
+  background-color: #ff9f1c;
+  width: 534px;
+  height: 300px;
+  margin: 120px;
+  border-radius: 20px;
+  position: relative;
+}
+.texts-h1{
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  max-width: 380px;
+  margin-bottom: 50px;
+}
+.texts-div{
+  margin-top: 180px;
+  margin-left: -20px;
+}
+.texts-p{
+  max-width: 500px;
+  display: block;
+  position: relative;
+}
+.tick{
+  position: absolute;
+  left: -30px;
+  top: 8px;
+}

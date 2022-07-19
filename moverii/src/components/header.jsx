@@ -4,7 +4,7 @@ const Header = () => {
       <header className="w-full h-24">
         <nav className="flex items-center justify-between">
         <div className="mt-5">
-            <img className="logo" src="./files/Logo.png" alt="lego"Logo/>
+            <img className="logo" src="./files/Logo.png" alt="lego"/>
           </div>
           <ul className="mt-5 flex justify-end items-center">
             <li className="dutch-li">
