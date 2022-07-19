@@ -20,7 +20,10 @@ const Started = () => {
           purus viverra accumsan in nisl nisi
         </p>
         <div className="started-button">
-          Let's Go <span>--</span>
+          Let's Go{" "}
+          <span className="started-arrow">
+            <img src="./files/5.png" />
+          </span>
         </div>
       </section>
     </>
