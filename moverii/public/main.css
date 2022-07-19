@@ -17,9 +17,11 @@ html {
   max-height: 26px;
   max-width: 110px;
   margin-left: 120px;
+  cursor: pointer;
 }
 .sign-button {
   margin-right: 120px;
+  cursor: pointer;
 }
 .started-section {
   display: flex;
@@ -31,14 +33,12 @@ html {
   background-repeat: no-repeat;
   height: 430px;
   color: #ffffff;
-  filter: brightness(90%)
-
+  filter: brightness(90%);
 }
 .started-h1 {
   font-size: 40px;
   font-weight: 800;
   margin-bottom: 5px;
-  
 }
 .started-p {
   max-width: 400px;
@@ -53,10 +53,10 @@ html {
   cursor: pointer;
   position: relative;
 }
-.started-arrow{
-   position: absolute;
-   top: 16px;
-   right: 40px;
+.started-arrow {
+  position: absolute;
+  top: 16px;
+  right: 40px;
 }
 .space-dot {
   color: #ff9f1c;
@@ -71,128 +71,179 @@ html {
   align-items: center;
   font-weight: 600;
 }
-.mission-sec{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   position: relative;
-   margin-bottom: 30px;
+.mission-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 30px;
 }
-.mission-p{
-   max-width: 740px;
-   margin: 0 0 20px 0;
-   text-align: center;
+.mission-p {
+  max-width: 740px;
+  margin: 0 0 20px 0;
+  text-align: center;
 }
-.mission-h1{
-   font-weight: 700;
-   font-size: 30px;
-   line-height: 20px;
-   margin: 50px 0;
+.mission-h1 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 20px;
+  margin: 50px 0;
 }
-.v2-shape{
-   width: 166px;
-   height: 310px;
-   position: absolute;
-   left: 10%;
-   top: 15%;
+.v2-shape {
+  width: 166px;
+  height: 310px;
+  position: absolute;
+  left: 10%;
+  top: 15%;
 }
-.x-shape{
-   width: 15px;
-   height: 20px;
-   position: absolute;
-   left: 9.8%;
-   top: 12%;
+.x-shape {
+  width: 15px;
+  height: 20px;
+  position: absolute;
+  left: 9.8%;
+  top: 12%;
 }
-.v1-shape{
-   width: 166px;
-   height: 310px;
-   position: absolute;
-   right: 10%;
-   top: 15%;
+.v1-shape {
+  width: 166px;
+  height: 310px;
+  position: absolute;
+  right: 10%;
+  top: 15%;
 }
-.plan-shape{
-   width: 60px;
-   height: 55px;
-   position: absolute;
-   right: 7.3%;
-   top: 6%;
+.plan-shape {
+  width: 60px;
+  height: 55px;
+  position: absolute;
+  right: 7.3%;
+  top: 6%;
 }
-.adv-main{
-   display: flex;
+.adv-main {
+  display: flex;
 }
-.box-style{
-   background-color: #ffffff;
-   margin: 20px 10px;
-   width: 380px;
-   height: 100px;
-   border-radius: 20px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+.box-style {
+  background-color: #ffffff;
+  margin: 20px 10px;
+  max-height: 100px;
+  border-radius: 20px;
+}
+.box-style > h3 {
+  padding: 30px 80px;
 }
 .adv-first > h1 {
-   font-size: 30px;
-   font-weight: 700;
-   line-height: 20px;
-   align-items: center;
-   margin: 50px 0;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 20px;
+  align-items: center;
+  margin: 50px 0;
 }
-.adv-first{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   width: 100vw;
-   height: 670px;
-   background-color: #E1F9FC;
+.adv-first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 670px;
+  background-color: #e1f9fc;
 }
-.dutch-ico{
-position: absolute;
-left: -30px;
-top: 4px;
+.dutch-ico {
+  position: absolute;
+  left: -30px;
+  top: 4px;
 }
-.dutch-arrow{
-   right: -15px;
-   top: 9px;
-   position: absolute;
+.dutch-arrow {
+  right: -15px;
+  top: 9px;
+  position: absolute;
 }
-.dutch-li{
-   position: relative;
-   cursor: pointer;
+.dutch-li {
+  position: relative;
+  cursor: pointer;
 }
-.fav-li{
-   position: relative;
-   cursor: pointer;
+.fav-li {
+  position: relative;
+  cursor: pointer;
 }
-.fav-ico{
-   position: absolute;
-   top: 6px;
-   left: -22px;
+.fav-ico {
+  position: absolute;
+  top: 6px;
+  left: -22px;
 }
 
-.help-li{
+.help-li {
+  position: relative;
+  cursor: pointer;
+}
+.help-ico {
+  position: absolute;
+  top: 5px;
+  left: -22px;
+}
+.search-li {
+  position: relative;
+  cursor: pointer;
+}
+.search-ico {
+  position: absolute;
+  top: 7px;
+  left: -20px;
+}
+.acc-li {
+  position: relative;
+  cursor: pointer;
+}
+.acc-ico {
+  position: absolute;
+  top: 6px;
+  left: -20px;
+}
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8{
+  position: relative;
+  cursor: pointer;
+}
+.box1-ico,
+.box2-ico,
+.box3-ico,
+.box4-ico,
+.box5-ico,
+.box6-ico,
+.box7-ico,
+.box8-ico {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+.box1-arr,
+.box2-arr,
+.box3-arr,
+.box4-arr,
+.box5-arr,
+.box6-arr,
+.box7-arr,
+.box8-arr {
+  position: absolute;
+  right: 15px;
+  top: 45px;
+}
+.box9{
+   background-color: #FF9F1C;
+   color: #ffffff;
    position: relative;
+   text-align: left;
+   width: 270px;
    cursor: pointer;
 }
-.help-ico{
+.box9-text{
    position: absolute;
-   top: 5px;
-   left: -22px;
+   left: 18px;
 }
-.search-li{
-   position: relative;
-   cursor: pointer;
-}
-.search-ico{
+.box9-arr{
    position: absolute;
-   top: 7px;
-   left: -20px;
-}
-.acc-li{
-   position: relative;
-   cursor: pointer;
-}
-.acc-ico{
-   position: absolute;
-   top: 6px;
-   left: -20px;
+   right: 10px;
+   top: 35px;
 }
