@@ -33,23 +33,31 @@ html {
   background-repeat: no-repeat;
   height: 430px;
   color: #ffffff;
-  filter: brightness(90%);
+}
+.started-back {
+  width: 100vw;
+  height: 430px;
+  background: #2b2d42;
+  opacity: 0.4;
+  position: absolute;
 }
 .started-h1 {
   font-size: 40px;
   font-weight: 800;
   margin-bottom: 5px;
+  z-index: 1;
 }
 .started-p {
   max-width: 400px;
   margin-top: 10px;
+  z-index: 1;
 }
 
 .started-button {
   background-color: #ff9f1c;
   border-radius: 20px;
   padding: 10px 60px;
-  margin-top: 40px;
+  margin: 40px 0;
   cursor: pointer;
   position: relative;
 }
@@ -70,6 +78,7 @@ html {
   justify-content: center;
   align-items: center;
   font-weight: 600;
+  z-index: 1;
 }
 .mission-sec {
   display: flex;
@@ -202,7 +211,7 @@ html {
 .box5,
 .box6,
 .box7,
-.box8{
+.box8 {
   position: relative;
   cursor: pointer;
 }
@@ -230,20 +239,20 @@ html {
   right: 15px;
   top: 45px;
 }
-.box9{
-   background-color: #FF9F1C;
-   color: #ffffff;
-   position: relative;
-   text-align: left;
-   width: 270px;
-   cursor: pointer;
+.box9 {
+  background-color: #ff9f1c;
+  color: #ffffff;
+  position: relative;
+  text-align: left;
+  width: 270px;
+  cursor: pointer;
 }
-.box9-text{
-   position: absolute;
-   left: 18px;
+.box9-text {
+  position: absolute;
+  left: 18px;
 }
-.box9-arr{
-   position: absolute;
-   right: 10px;
-   top: 35px;
+.box9-arr {
+  position: absolute;
+  right: 10px;
+  top: 35px;
 }

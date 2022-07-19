@@ -2,6 +2,7 @@ const Started = () => {
   return (
     <>
       <section className="started-section">
+        <div className="started-back"></div>
         <h1 className="started-h1">Get started</h1>
         <div className="started-titles">
           <span>Surfan</span>
