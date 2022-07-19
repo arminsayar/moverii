@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  overflow-x: hidden;
+}
+.button-background {
+  background-color: #12a3ba;
+  border-radius: 15px;
+  padding: 10px 40px;
+  color: #ffffff;
+}
+
+.logo {
+  max-height: 26px;
+  max-width: 110px;
+  margin-left: 120px;
+}
+.sign-button {
+  margin-right: 120px;
+}
+.started-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./files/Rectangle.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 430px;
+  color: #ffffff;
+}
+.started-h1 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+.started-p {
+  max-width: 400px;
+  margin-top: 10px;
+}
+
+.started-button {
+  background-color: #ff9f1c;
+  border-radius: 20px;
+  padding: 10px 60px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.space-dot {
+  color: #ff9f1c;
+  font-size: 50px;
+  margin: 0 10px;
+  margin-top: -30px;
+  font-weight: 600;
+}
+.started-titles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+.mission-sec{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+   margin-bottom: 30px;
+}
+.mission-p{
+   max-width: 740px;
+   margin: 0 0 20px 0;
+   text-align: center;
+}
+.mission-h1{
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 20px;
+   margin: 50px 0;
+}
+.v2-shape{
+   width: 166px;
+   height: 310px;
+   position: absolute;
+   left: 10%;
+   top: 15%;
+}
+.x-shape{
+   width: 15px;
+   height: 20px;
+   position: absolute;
+   left: 9.8%;
+   top: 12%;
+}
+.v1-shape{
+   width: 166px;
+   height: 310px;
+   position: absolute;
+   right: 10%;
+   top: 15%;
+}
+.plan-shape{
+   width: 60px;
+   height: 55px;
+   position: absolute;
+   right: 7.3%;
+   top: 6%;
+}
